@@ -9,28 +9,33 @@
 body {
     background-color: #121214;
     padding: 74px 100px;
-    width: 1440px;
-    height: 1293px;
+      display: grid;
+    justify-content:center ;
   }
+  h1{
+    color: #02799d;
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 72px;
+  }
+  .paragraphHeader {
+    color: #e1e1e6;
+    font-size: 32px;
+    font-weight: 600;
+  
+  }
+
+  /*margin em main, porque nao afeta o de cima,, nao empurra a nada*/
   main{
+    margin-top: 62px;
     display: grid;
     grid-template-columns: repeat(3, 370px);
     gap: 48px 60px;
-    place-content:center ;
+ 
   }
   /*row-gap: 48px;
   column-gap: 60px;*/
-title {
-  color: #02799d;
-  font-size: 58.287px;
 
-  font-weight: 900;
-}
-.paragraphHeader {
-  color: #e1e1e6;
-  font-size: 32px;
-  font-weight: 600;
-}
 .card{
 
      border-radius: 8px;
